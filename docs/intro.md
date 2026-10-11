@@ -5,8 +5,6 @@ sidebar_label: このアセットについて
 description: mikinel Shisha System の概要、モードの違い、用語とサンプルワールド。
 ---
 
-## このアセットについて
-
 mikinel Shisha SystemはVRChat内でシーシャを楽しむためのUdon製ギミックです。
 
 ![VRChatでシーシャを楽しむ様子](/img/notion/intro/preview.png)

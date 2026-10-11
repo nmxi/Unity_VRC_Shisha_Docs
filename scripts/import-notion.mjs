@@ -104,6 +104,7 @@ for (const page of pages) {
     await writeFile(path.join(root, 'docs', 'quick-installation.md'), quickContent, 'utf8');
     report.pages.push({source: filename, target: 'docs/quick-installation.md', images: 0, sourceSha256: sha256(Buffer.from(original))});
     content = content.replace(summary[0], '')
+      .replace(/^## このアセットについて\n+/m, '')
       .replace('\n導入方法\n', '\n導入方法\n\n[クイックインストール](./quick-installation.md)\n');
     content = content.replace('![vlcsnap-2024-04-13-03h33m02s288.png]', '![VRChatでシーシャを楽しむ様子]')
       .replace('![アセット 1.png]', '![シーシャの各パーツの名称]')

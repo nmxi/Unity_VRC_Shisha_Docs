@@ -1,4 +1,4 @@
-import type {ReactNode} from 'react';
+import type {CSSProperties, ReactNode} from 'react';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
@@ -12,14 +12,15 @@ const guides = [
 
 export default function Home(): ReactNode {
   const preview = useBaseUrl('/img/notion/intro/preview.png');
+  const background = useBaseUrl('/img/shisha-background.webp');
   return (
     <Layout title="ドキュメント" description="VRChat用シーシャギミック mikinel Shisha System の公式ドキュメント。Basic・Advanced モードの導入からカスタムデザインまで、画像付きで解説します。">
-      <main>
+      <main className={styles.home} style={{'--home-background-image': `url("${background}")`} as CSSProperties}>
         <header className={styles.hero}>
           <div className={`container ${styles.heroGrid}`}>
             <div className={styles.heroCopy}>
               <h1>Shisha<span>System</span></h1>
-              <p className={styles.description}>VRChat でシーシャを楽しむための Udon ギミック。</p>
+              <p className={styles.description}>VRChat向けUdon製シーシャギミック</p>
               <div className={styles.actions}>
                 <Link className="button button--primary button--lg" to="/docs/quick-installation">導入をはじめる <span aria-hidden="true">↗</span></Link>
                 <Link className={styles.secondaryLink} to="/docs/intro">このアセットについて <span aria-hidden="true">→</span></Link>
