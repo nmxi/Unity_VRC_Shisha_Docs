@@ -1,0 +1,56 @@
+/* VoiceGroupControl2_Docs の暖色パレットをベースに調整。 */
+:root {
+  --ifm-color-primary: #995312;
+  --ifm-color-primary-dark: #894b10;
+  --ifm-color-primary-darker: #82460f;
+  --ifm-color-primary-darkest: #6b3a0d;
+  --ifm-color-primary-light: #a95b14;
+  --ifm-color-primary-lighter: #b16015;
+  --ifm-color-primary-lightest: #c76c17;
+  --ifm-background-color: #fcfaf7;
+  --ifm-background-surface-color: #fff;
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+  --ifm-heading-font-weight: 700;
+  --ifm-line-height-base: 1.8;
+  --ifm-code-font-size: 90%;
+  --ifm-navbar-height: 4rem;
+  --ifm-global-radius: .5rem;
+  --docusaurus-highlighted-code-line-bg: #00000010;
+}
+[data-theme='dark'] {
+  --ifm-color-primary: #ffb142;
+  --ifm-color-primary-dark: #ffa21f;
+  --ifm-color-primary-darker: #ff9b10;
+  --ifm-color-primary-darkest: #d97d00;
+  --ifm-color-primary-light: #ffc065;
+  --ifm-color-primary-lighter: #ffc774;
+  --ifm-color-primary-lightest: #ffdda6;
+  --ifm-background-color: #181715;
+  --ifm-background-surface-color: #211f1c;
+  --ifm-navbar-background-color: #181715;
+  --ifm-font-color-base: #ede9e3;
+  --ifm-color-emphasis-200: #38332d;
+  --ifm-color-emphasis-600: #ada49b;
+  --ifm-color-emphasis-700: #c2b9af;
+  --docusaurus-highlighted-code-line-bg: #ffffff15;
+}
+.navbar { border-bottom: 1px solid var(--ifm-color-emphasis-200); box-shadow: none; }
+.navbar__title { font-size: .95rem; letter-spacing: -.02em; }
+.navbar__link { font-size: .85rem; }
+.button--primary:not(.button--outline) { background: #ffb142; border-color: #ffb142; color: #211b13; }
+.button--primary:not(.button--outline):hover { background: #ffc065; border-color: #ffc065; color: #211b13; }
+.footer { background: linear-gradient(180deg, #302720, #241e19); }
+.footer__title { color: #f4ece1; font-size: .9rem; }
+.footer__link-item { color: #e2c6a1; font-size: .85rem; }
+.footer__link-item:hover { color: #ffb142; }
+.footer__copyright { color: #bdb1a2; font-size: .75rem; margin-top: 1.5rem; }
+.markdown { overflow-wrap: anywhere; }
+.markdown h1 { font-size: clamp(1.8rem, 3vw, 2.6rem); }
+.markdown h2 { margin-top: 3rem; padding-bottom: .6rem; border-bottom: 1px solid var(--ifm-color-emphasis-200); }
+.markdown h3 { margin-top: 2.2rem; }
+.markdown img { display: block; max-width: 100%; max-height: 680px; width: auto; height: auto; object-fit: contain; margin: 1.5rem auto; border-radius: .4rem; }
+.markdown table { display: block; overflow-x: auto; }
+.menu__link { font-size: .88rem; }
+.table-of-contents { font-size: .75rem; }
+:focus-visible { outline: 2px solid var(--ifm-color-primary); outline-offset: 4px; }
+@media (max-width: 480px) { .navbar__title { font-size: .8rem; } .markdown h1 { font-size: 1.65rem; } }
