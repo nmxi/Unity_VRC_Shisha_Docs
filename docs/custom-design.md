@@ -53,7 +53,7 @@ description: オリジナルモデルの各 Unit と、Basic・Advanced 用 Pref
 
 ![シーシャ本体のリファレンスモデル](/img/notion/custom-design/figure-49.png)
 
-シーシャ本体のリファレンスモデル
+<p class="image-caption">シーシャ本体のリファレンスモデル</p>
 
 :::info[補足]
 
@@ -75,13 +75,13 @@ description: オリジナルモデルの各 Unit と、Basic・Advanced 用 Pref
 
 ![ShishaBottleUnitコンポーネントの設定](/img/notion/custom-design/figure-03.png)
 
-ShishaBottleUnitコンポーネントの設定
+<p class="image-caption">ShishaBottleUnitコンポーネントの設定</p>
 
 ### トップUnit
 
 ![トップのリファレンスモデル](/img/notion/custom-design/figure-14.png)
 
-トップのリファレンスモデル
+<p class="image-caption">トップのリファレンスモデル</p>
 
 :::info[補足]
 
@@ -99,13 +99,13 @@ ShishaBottleUnitコンポーネントの設定
 
 ![ShishaTopUnitコンポーネントの設定](/img/notion/custom-design/figure-25.png)
 
-ShishaTopUnitコンポーネントの設定
+<p class="image-caption">ShishaTopUnitコンポーネントの設定</p>
 
 ### ヒートシステムUnit
 
 ![ヒートシステムのリファレンスモデル](/img/notion/custom-design/figure-36.png)
 
-ヒートシステムのリファレンスモデル
+<p class="image-caption">ヒートシステムのリファレンスモデル</p>
 
 :::info[補足]
 
@@ -122,7 +122,7 @@ ShishaTopUnitコンポーネントの設定
 
 ![フタのリファレンスモデル](/img/notion/custom-design/figure-44.png)
 
-フタのリファレンスモデル
+<p class="image-caption">フタのリファレンスモデル</p>
 
 :::info[補足]
 
@@ -145,7 +145,7 @@ ShishaTopUnitコンポーネントの設定
 
 ![パイプのリファレンスモデル](/img/notion/custom-design/figure-45.png)
 
-パイプのリファレンスモデル
+<p class="image-caption">パイプのリファレンスモデル</p>
 
 :::info[補足]
 
@@ -163,7 +163,7 @@ ShishaTopUnitコンポーネントの設定
 
 ![子階層にAnchor(EmptyObject)を作成した様子](/img/notion/custom-design/figure-46.png)
 
-子階層にAnchor(EmptyObject)を作成した様子
+<p class="image-caption">子階層にAnchor(EmptyObject)を作成した様子</p>
 
 #### b. テンプレートを複製してパイプUnit Prefabを作成
 
@@ -173,7 +173,7 @@ ShishaTopUnitコンポーネントの設定
 
 ![PipeUnit_Template.prefabを複製した直後の様子、名前はSamplePipeUnitと設定](/img/notion/custom-design/figure-47.png)
 
-PipeUnit_Template.prefabを複製した直後の様子、名前はSamplePipeUnitと設定
+<p class="image-caption">PipeUnit_Template.prefabを複製した直後の様子、名前はSamplePipeUnitと設定</p>
 
 #### c. パイプUnit Prefab内にパイプモデルを追加
 
@@ -181,7 +181,7 @@ aで作成したパイプモデルPrefabを配置します。
 
 ![SamplePipeUnit.Prefab内にPipe.Prefabが配置された状態](/img/notion/custom-design/figure-48.png)
 
-SamplePipeUnit.Prefab内にPipe.Prefabが配置された状態
+<p class="image-caption">SamplePipeUnit.Prefab内にPipe.Prefabが配置された状態</p>
 
 #### d. パイプモデルの位置を調整
 
@@ -189,7 +189,7 @@ SamplePipeUnit.Prefab内にPipe.Prefabが配置された状態
 
 ![パイプ位置調整後の状態](/img/notion/custom-design/figure-04.png)
 
-パイプ位置調整後の状態
+<p class="image-caption">パイプ位置調整後の状態</p>
 
 #### e. パイプモデルを複製してPipeController用のオブジェクトを作成
 
@@ -201,7 +201,7 @@ SamplePipeUnit.Prefab内にPipe.Prefabが配置された状態
 
 ![Pipeを複製し半透明のマテリアルを設定し、横に並べた状態](/img/notion/custom-design/figure-05.png)
 
-Pipeを複製し半透明のマテリアルを設定し、横に並べた状態
+<p class="image-caption">Pipeを複製し半透明のマテリアルを設定し、横に並べた状態</p>
 
 #### f. PipeControllerコンポーネントを移植
 
@@ -209,7 +209,7 @@ SAMPLE_PIPE_CONTROLLERオブジェクト内のPipeControllerコンポーネン�
 
 ![SAMPLE_PIPE_CONTROLLERオブジェクトからPipeControllerコンポーネントを移動させている様子](/img/notion/custom-design/figure-01.gif)
 
-SAMPLE_PIPE_CONTROLLERオブジェクトからPipeControllerコンポーネントを移動させている様子
+<p class="image-caption">SAMPLE_PIPE_CONTROLLERオブジェクトからPipeControllerコンポーネントを移動させている様子</p>
 
 #### g. PipeControllerの設定
 
@@ -220,7 +220,7 @@ PipeControllerコンポーネントのDistanceDetectTransformとTargetTransform�
 
 ![PipeControllerコンポーネントのDistanceDetectTransformとTargetTransformを設定した状態](/img/notion/custom-design/figure-06.png)
 
-PipeControllerコンポーネントのDistanceDetectTransformとTargetTransformを設定した状態
+<p class="image-caption">PipeControllerコンポーネントのDistanceDetectTransformとTargetTransformを設定した状態</p>
 
 #### h. PipeControllerオブジェクトをPickup可能にする
 
@@ -245,7 +245,7 @@ PipeControllerに以下のコンポーネントを追加します。
 
 ![PipeControllerオブジェクトに追加されてコンポーネント](/img/notion/custom-design/figure-10.png)
 
-PipeControllerオブジェクトに追加されてコンポーネント
+<p class="image-caption">PipeControllerオブジェクトに追加されてコンポーネント</p>
 
 #### i. SAMPLE_PIPE_CONTROLLERオブジェクトを削除
 
@@ -269,7 +269,7 @@ BasicモードとAdvancedモードで作成するPrefabが異なります。
 
 ![テンプレート複製後のPrefabの様子、メッシュなどは特に存在しません。](/img/notion/custom-design/figure-12.png)
 
-テンプレート複製後のPrefabの様子、メッシュなどは特に存在しません。
+<p class="image-caption">テンプレート複製後のPrefabの様子、メッシュなどは特に存在しません。</p>
 
 #### b. 作成したシーシャ本体Unitを配置
 
@@ -277,7 +277,7 @@ BasicモードとAdvancedモードで作成するPrefabが異なります。
 
 ![シーシャUnit Prefabを配置している様子](/img/notion/custom-design/figure-50.gif)
 
-シーシャUnit Prefabを配置している様子
+<p class="image-caption">シーシャUnit Prefabを配置している様子</p>
 
 #### c. ShishaControllerの設定
 
@@ -285,7 +285,7 @@ ShishaControllerコンポーネントのShishaBottleUnitに、bで追加した�
 
 ![ShishaControllerのShishaBottleUnitを設定した状態](/img/notion/custom-design/figure-13.png)
 
-ShishaControllerのShishaBottleUnitを設定した状態
+<p class="image-caption">ShishaControllerのShishaBottleUnitを設定した状態</p>
 
 #### d. シーシャ本体Unit以外のUnitを配置
 
@@ -293,11 +293,11 @@ ShishaControllerのShishaBottleUnitを設定した状態
 
 ![各Unitを配置した様子](/img/notion/custom-design/figure-15.png)
 
-各Unitを配置した様子
+<p class="image-caption">各Unitを配置した様子</p>
 
 ![`Assets/mikinel/Shisha/Prefabs/Reference/CharcoalUnit/CharcoalUnit_Heated.prefab` から炭を配置することでリアリティが増します。](/img/notion/custom-design/figure-16.png)
 
-`Assets/mikinel/Shisha/Prefabs/Reference/CharcoalUnit/CharcoalUnit_Heated.prefab` から炭を配置することでリアリティが増します。
+<p class="image-caption"><code>Assets/mikinel/Shisha/Prefabs/Reference/CharcoalUnit/CharcoalUnit_Heated.prefab</code> から炭を配置することでリアリティが増します。</p>
 
 #### e. パイプUnitの配置
 
@@ -305,13 +305,13 @@ ShishaControllerのShishaBottleUnitを設定した状態
 
 ![パイプUnitを配置した状態](/img/notion/custom-design/figure-17.png)
 
-パイプUnitを配置した状態
+<p class="image-caption">パイプUnitを配置した状態</p>
 
 ホースの根本の位置が合うように調整します。
 
 ![ホースの根本の位置を合わせた状態](/img/notion/custom-design/figure-18.png)
 
-ホースの根本の位置を合わせた状態
+<p class="image-caption">ホースの根本の位置を合わせた状態</p>
 
 #### f. PipeControllerコンポーネントにShishaControllerを設定
 
@@ -321,7 +321,7 @@ PipeControllerオブジェクト内のPipeControllerコンポーネントにShis
 
 ![PipeControllerコンポーネントにShishaControllerを設定した状態](/img/notion/custom-design/figure-19.png)
 
-PipeControllerコンポーネントにShishaControllerを設定した状態
+<p class="image-caption">PipeControllerコンポーネントにShishaControllerを設定した状態</p>
 
 #### g. (ホースを複数接続したい場合)追加したパイプUnitを複製
 
@@ -329,7 +329,7 @@ PipeControllerコンポーネントにShishaControllerを設定した状態
 
 ![パイプUnitが複製された状態](/img/notion/custom-design/figure-20.png)
 
-パイプUnitが複製された状態
+<p class="image-caption">パイプUnitが複製された状態</p>
 
 #### h. 各オブジェクトの位置調整
 
@@ -344,7 +344,7 @@ PipeControllerコンポーネントにShishaControllerを設定した状態
 
 ![ShishaControllerオブジェクト, FlavorSmokeParticleオブジェクト, ResetInteractオブジェクトの位置調整が行われた状態](/img/notion/custom-design/figure-21.png)
 
-ShishaControllerオブジェクト, FlavorSmokeParticleオブジェクト, ResetInteractオブジェクトの位置調整が行われた状態
+<p class="image-caption">ShishaControllerオブジェクト, FlavorSmokeParticleオブジェクト, ResetInteractオブジェクトの位置調整が行われた状態</p>
 
 #### i. Prefabの保存
 
@@ -366,7 +366,7 @@ Advancedモード用のPrefabはシーシャの機能に必要なパーツごと
 
 ![テンプレート複製後のPrefabの様子、名前はSampleShishaAdvancedModeに設定しました。この時点ではメッシュなどは存在しません。](/img/notion/custom-design/figure-22.png)
 
-テンプレート複製後のPrefabの様子、名前はSampleShishaAdvancedModeに設定しました。この時点ではメッシュなどは存在しません。
+<p class="image-caption">テンプレート複製後のPrefabの様子、名前はSampleShishaAdvancedModeに設定しました。この時点ではメッシュなどは存在しません。</p>
 
 ##### b. 作成したシーシャ本体Unitを配置
 
@@ -376,7 +376,7 @@ Advancedモード用のPrefabはシーシャの機能に必要なパーツごと
 
 ![シーシャ本体Unit Prefabを配置している様子](/img/notion/custom-design/figure-50.gif)
 
-シーシャ本体Unit Prefabを配置している様子
+<p class="image-caption">シーシャ本体Unit Prefabを配置している様子</p>
 
 ##### c. ShishaControllerの設定
 
@@ -384,7 +384,7 @@ ShishaControllerコンポーネントのShishaBottleUnitに、bで追加した�
 
 ![ShishaControllerのShishaBottleUnitを設定した状態](/img/notion/custom-design/figure-23.png)
 
-ShishaControllerのShishaBottleUnitを設定した状態
+<p class="image-caption">ShishaControllerのShishaBottleUnitを設定した状態</p>
 
 ##### d. 当たり判定の位置調整
 
@@ -392,7 +392,7 @@ ShishaControllerのShishaBottleUnitを設定した状態
 
 ![当たり判定の位置調整を行った状態](/img/notion/custom-design/figure-24.png)
 
-当たり判定の位置調整を行った状態
+<p class="image-caption">当たり判定の位置調整を行った状態</p>
 
 ##### e. CombineBaseの位置調整
 
@@ -400,7 +400,7 @@ ShishaController_ShishaTopオブジェクトの位置を、トップが接続さ
 
 ![CombineBaseの位置を調整した状態](/img/notion/custom-design/figure-26.png)
 
-CombineBaseの位置を調整した状態
+<p class="image-caption">CombineBaseの位置を調整した状態</p>
 
 ##### f. Prefabの保存
 
@@ -414,7 +414,7 @@ CombineBaseの位置を調整した状態
 
 ![テンプレート複製後のPrefabの様子、名前はShisha_Topに設定しました。この時点ではメッシュなどは存在しません。](/img/notion/custom-design/figure-27.png)
 
-テンプレート複製後のPrefabの様子、名前はShisha_Topに設定しました。この時点ではメッシュなどは存在しません。
+<p class="image-caption">テンプレート複製後のPrefabの様子、名前はShisha_Topに設定しました。この時点ではメッシュなどは存在しません。</p>
 
 ##### b. トップUnitの配置
 
@@ -424,7 +424,7 @@ CombineBaseの位置を調整した状態
 
 ![トップUnitを配置した状態](/img/notion/custom-design/figure-28.png)
 
-トップUnitを配置した状態
+<p class="image-caption">トップUnitを配置した状態</p>
 
 ##### c. ShishaFlavorDataコンポーネントにトップUnitを設定
 
@@ -432,7 +432,7 @@ Shsha_Topオブジェクト内にあるShishaFlavorDataコンポーネントのS
 
 ![ShishaFlavorDataコンポーネント内にShishaTopUnitを設定した状態](/img/notion/custom-design/figure-29.png)
 
-ShishaFlavorDataコンポーネント内にShishaTopUnitを設定した状態
+<p class="image-caption">ShishaFlavorDataコンポーネント内にShishaTopUnitを設定した状態</p>
 
 ##### d. 当たり判定の位置調整
 
@@ -440,7 +440,7 @@ ShishaFlavorDataコンポーネント内にShishaTopUnitを設定した状態
 
 ![当たり判定の位置調整を行った状態](/img/notion/custom-design/figure-30.png)
 
-当たり判定の位置調整を行った状態
+<p class="image-caption">当たり判定の位置調整を行った状態</p>
 
 ##### e. CombineBaseの位置調整
 
@@ -448,7 +448,7 @@ Heat_CombineBaseオブジェクトの位置を、ヒートシステムが接続�
 
 ![HeatCombineBaseオブジェクトの位置が調整された状態](/img/notion/custom-design/figure-31.png)
 
-HeatCombineBaseオブジェクトの位置が調整された状態
+<p class="image-caption">HeatCombineBaseオブジェクトの位置が調整された状態</p>
 
 ##### f. 各オブジェクトの位置調整
 
@@ -459,7 +459,7 @@ FxとFlavorSmokeParticleオブジェクトの位置をフレーバのオブジ�
 
 ![Fx, FlavorSmokeParticleの位置調整を行った状態](/img/notion/custom-design/figure-32.png)
 
-Fx, FlavorSmokeParticleの位置調整を行った状態
+<p class="image-caption">Fx, FlavorSmokeParticleの位置調整を行った状態</p>
 
 ##### g. Prefabの保存
 
@@ -473,7 +473,7 @@ Fx, FlavorSmokeParticleの位置調整を行った状態
 
 ![テンプレート複製後のPrefabの様子、名前はSampleHeatSystemに設定しました。この時点ではメッシュなどは存在しません。](/img/notion/custom-design/figure-33.png)
 
-テンプレート複製後のPrefabの様子、名前はSampleHeatSystemに設定しました。この時点ではメッシュなどは存在しません。
+<p class="image-caption">テンプレート複製後のPrefabの様子、名前はSampleHeatSystemに設定しました。この時点ではメッシュなどは存在しません。</p>
 
 ##### b. ヒートシステムUnitの配置
 
@@ -483,7 +483,7 @@ Fx, FlavorSmokeParticleの位置調整を行った状態
 
 ![ヒートシステムUnitを配置した状態](/img/notion/custom-design/figure-34.png)
 
-ヒートシステムUnitを配置した状態
+<p class="image-caption">ヒートシステムUnitを配置した状態</p>
 
 ##### c. CombineBaseの位置調整
 
@@ -491,7 +491,7 @@ Charcoal_CombineBaseオブジェクトの位置を調整して炭がちょうど
 
 ![CombineBaseの位置を調節した状態](/img/notion/custom-design/figure-35.png)
 
-CombineBaseの位置を調節した状態
+<p class="image-caption">CombineBaseの位置を調節した状態</p>
 
 ##### d. 炭のモデルを削除
 
@@ -501,7 +501,7 @@ CharcoalUnitオブジェクトを選択し、削除します。
 
 ![炭のモデルの削除を行う様子](/img/notion/custom-design/figure-37.png)
 
-炭のモデルの削除を行う様子
+<p class="image-caption">炭のモデルの削除を行う様子</p>
 
 ##### e. 当たり判定の位置調整
 
@@ -509,7 +509,7 @@ CharcoalUnitオブジェクトを選択し、削除します。
 
 ![当たり判定の位置調整を行った状態](/img/notion/custom-design/figure-38.png)
 
-当たり判定の位置調整を行った状態
+<p class="image-caption">当たり判定の位置調整を行った状態</p>
 
 ##### f. CombineBaseの位置調整
 
@@ -517,7 +517,7 @@ Top_CombineBaseオブジェクトの位置を、フタが接続される位置�
 
 ![Top_CombineBaseオブジェクトの位置調整を行った状態](/img/notion/custom-design/figure-39.png)
 
-Top_CombineBaseオブジェクトの位置調整を行った状態
+<p class="image-caption">Top_CombineBaseオブジェクトの位置調整を行った状態</p>
 
 ##### g. Prefabの保存
 
@@ -531,7 +531,7 @@ Top_CombineBaseオブジェクトの位置調整を行った状態
 
 ![テンプレート複製後のPrefabの様子、名前はSampleCapに設定しました。この時点ではメッシュなどは存在しません。](/img/notion/custom-design/figure-40.png)
 
-テンプレート複製後のPrefabの様子、名前はSampleCapに設定しました。この時点ではメッシュなどは存在しません。
+<p class="image-caption">テンプレート複製後のPrefabの様子、名前はSampleCapに設定しました。この時点ではメッシュなどは存在しません。</p>
 
 ##### b. フタUnitの配置
 
@@ -541,7 +541,7 @@ Top_CombineBaseオブジェクトの位置調整を行った状態
 
 ![フタUnitを配置した状態](/img/notion/custom-design/figure-41.png)
 
-フタUnitを配置した状態
+<p class="image-caption">フタUnitを配置した状態</p>
 
 ##### c. 当たり判定の位置調整
 
@@ -549,7 +549,7 @@ Top_CombineBaseオブジェクトの位置調整を行った状態
 
 ![当たり判定の位置調整を行った状態](/img/notion/custom-design/figure-42.png)
 
-当たり判定の位置調整を行った状態
+<p class="image-caption">当たり判定の位置調整を行った状態</p>
 
 ##### d. Prefabの保存
 
@@ -562,6 +562,6 @@ Top_CombineBaseオブジェクトの位置調整を行った状態
 
 ![作成した4つのPrefab](/img/notion/custom-design/figure-43.png)
 
-作成した4つのPrefab
+<p class="image-caption">作成した4つのPrefab</p>
 
 お疲れ様でした、このPrefabをワールドに配置することでAdvancedモードのシーシャシステムとして動作します。

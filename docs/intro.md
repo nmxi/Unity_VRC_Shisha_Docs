@@ -7,16 +7,16 @@ description: mikinel Shisha System の概要、モードの違い、用語とサ
 
 mikinel Shisha SystemはVRChat内でシーシャを楽しむためのUdon製ギミックです。
 
-![VRChatでシーシャを楽しむ様子](/img/notion/intro/preview.png)
-
 紹介動画
 
-[https://youtu.be/lRXlGNVUriw?si=_rUOK4nWGQoSsMuu](https://youtu.be/lRXlGNVUriw?si=_rUOK4nWGQoSsMuu)
+<iframe class="shisha-intro-video" width="1037" height="583" src="https://www.youtube.com/embed/lRXlGNVUriw" title="VRChat mikinel ShishaSystem" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 このアセットには
 
-- Basicモード
-- Advancedモード
+<ul class="shisha-mode-list">
+  <li class="shisha-mode-basic">Basicモード</li>
+  <li class="shisha-mode-advanced">Advancedモード</li>
+</ul>
 
 の2種類のモードがあります。
 

@@ -13,7 +13,7 @@ mikinel Shisha Systemは`Assets/mikinel` 内にインポートされます。
 
 ![インポートされたファイル群](/img/notion/advanced/figure-21.png)
 
-インポートされたファイル群
+<p class="image-caption">インポートされたファイル群</p>
 
 :::tip[ヒント]
 
@@ -34,7 +34,7 @@ mikinel Shisha Systemでは、ShishaSystem_Root.prefabを先に配置してか�
 
 ![ShishaSystem_Root.prefabをシーンに配置](/img/notion/advanced/figure-01.png)
 
-ShishaSystem_Root.prefabをシーンに配置
+<p class="image-caption">ShishaSystem_Root.prefabをシーンに配置</p>
 
 ## 3. 各オブジェクトの配置
 
@@ -66,7 +66,7 @@ ShishaSystem_Root.prefabをシーンに配置
 
 ![様々な種類のシーシャ本体のPrefab](/img/notion/advanced/figure-12.png)
 
-様々な種類のシーシャ本体のPrefab
+<p class="image-caption">様々な種類のシーシャ本体のPrefab</p>
 
 パイプが1本のもの、2本のもの、アイスホースのものなどの種類があります。
 
@@ -153,19 +153,22 @@ TimeToCoolDown : 熱量100%から0%になるまでの秒数 (デフォルト 900
 
 ![FlavorServerコンポーネント](/img/notion/advanced/figure-05.png)
 
-FlavorServerコンポーネント
+<p class="image-caption">FlavorServerコンポーネント</p>
 
-FlavorColorTypeを切り替えることで、1色、2色グラデーションの切り替えが可能です。
+- **FlavorColorType**：1色とグラデーション色を切り替えます。
+- **FirstColor**：1色目の色を設定します。
+- **SecondColor**：グラデーション時の2色目の色を設定します。
+- **Smoke Density Multiplier**：煙の濃さを設定します。
 
-![SingleモードとGradientモード](/img/notion/advanced/figure-06.png)
+![FlavorServerの色と煙の濃さの設定](/img/notion/advanced/figure-06.png)
 
-SingleモードとGradientモード
+<p class="image-caption">FlavorServerの色と煙の濃さの設定</p>
 
 これらの配置を行った後、ShishaSystem_Rootオブジェクト下にはこのようにオブジェクトが配置されている状態になります。
 
 ![シーンに配置を行った例](/img/notion/advanced/figure-07.png)
 
-シーンに配置を行った例
+<p class="image-caption">シーンに配置を行った例</p>
 
 ## 4. 動作確認、アップロード
 
@@ -175,23 +178,23 @@ VR内での検証をおすすめします。
 
 ![フレーバをトップに当てたときにフレーバがセットされるか？](/img/notion/advanced/figure-08.png)
 
-フレーバをトップに当てたときにフレーバがセットされるか？
+<p class="image-caption">フレーバをトップに当てたときにフレーバがセットされるか？</p>
 
 ![炭が加熱できるか？](/img/notion/advanced/figure-09.png)
 
-炭が加熱できるか？
+<p class="image-caption">炭が加熱できるか？</p>
 
 ![炭ホルダーに炭が載るか？](/img/notion/advanced/figure-10.png)
 
-炭ホルダーに炭が載るか？
+<p class="image-caption">炭ホルダーに炭が載るか？</p>
 
 ![ヒートシステムに炭がセットできるか？](/img/notion/advanced/figure-11.png)
 
-ヒートシステムに炭がセットできるか？
+<p class="image-caption">ヒートシステムに炭がセットできるか？</p>
 
 ![全てを接続してシーシャを吸うことができるか？](/img/notion/advanced/figure-13.png)
 
-全てを接続してシーシャを吸うことができるか？
+<p class="image-caption">全てを接続してシーシャを吸うことができるか？</p>
 
 :::tip[ヒント]
 

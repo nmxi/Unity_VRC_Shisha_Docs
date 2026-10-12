@@ -3,6 +3,7 @@ node_modules/
 
 # Docusaurus generated files
 .docusaurus/
+.docusaurus-build/
 build/
 .cache/
 

@@ -3,13 +3,13 @@
     {
       "source": "mikinel Shisha System ドキュメント TOP 7e840aedd38948b888ba3bfca937a7d9.md",
       "target": "docs/quick-installation.md",
-      "images": 0,
+      "images": 1,
       "sourceSha256": "ee8ff607be853b7e5322a061c1b7dc360b115eef7e7e8ed7d5653b0186edf6e7"
     },
     {
       "source": "mikinel Shisha System ドキュメント TOP 7e840aedd38948b888ba3bfca937a7d9.md",
       "target": "docs/intro.md",
-      "images": 2,
+      "images": 1,
       "sourceSha256": "ee8ff607be853b7e5322a061c1b7dc360b115eef7e7e8ed7d5653b0186edf6e7"
     },
     {
@@ -87,10 +87,11 @@
       "sha256": "7f92f7f4714e24cb0a5b1bd23179219b80b5c29aa6f9aa064c9e8184bf2e4e2e"
     },
     {
-      "source": "導入方法 (Basicモード)/Untitled 7.png",
+      "source": "ユーザー提供/2026-10-11_190644.png",
       "target": "static/img/notion/basic/figure-08.png",
-      "bytes": 11161,
-      "sha256": "57b212d0778e8c48c2eb903aeb769ed6d6bdf74a8b96adbd836e97f7c6c60be8"
+      "bytes": 14392,
+      "sha256": "67eef16cabef6be2866792d9ff932955e2da4165fceac9730da2fef8f2a51a3c",
+      "originalSource": "導入方法 (Basicモード)/Untitled 7.png"
     },
     {
       "source": "導入方法 (Basicモード)/Untitled 8.png",
@@ -135,10 +136,11 @@
       "sha256": "ec0e2914d7b5907ffc73256c35b887cc6ca829754d0623717776384ea08e84ff"
     },
     {
-      "source": "導入方法 (Advancedモード)/Untitled 14.png",
+      "source": "ユーザー提供/2026-10-11_190644.png",
       "target": "static/img/notion/advanced/figure-06.png",
-      "bytes": 11161,
-      "sha256": "57b212d0778e8c48c2eb903aeb769ed6d6bdf74a8b96adbd836e97f7c6c60be8"
+      "bytes": 14392,
+      "sha256": "67eef16cabef6be2866792d9ff932955e2da4165fceac9730da2fef8f2a51a3c",
+      "originalSource": "導入方法 (Advancedモード)/Untitled 14.png"
     },
     {
       "source": "導入方法 (Advancedモード)/Untitled 15.png",
@@ -530,5 +532,8 @@
       "bytes": 4924658,
       "sha256": "17e716ac3c6957f3ba357ee9556c06f501b8a8c3c53b81651b893c5aac5b4a1d"
     }
+  ],
+  "assetReferenceFiles": [
+    "src/pages/index.tsx"
   ]
 }

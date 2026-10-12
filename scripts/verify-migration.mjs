@@ -24,5 +24,12 @@ for (const page of manifest.pages) {
     if (assetTargets.has(href)) linkedAssets.add(href);
   }
 }
-assert.equal(linkedAssets.size, assetTargets.size, '本文から参照されていない添付ファイルがあります');
+// Migrated assets can also be used by the homepage, outside Markdown documents.
+for (const file of manifest.assetReferenceFiles ?? []) {
+  const text = await readFile(path.join(root, file), 'utf8');
+  for (const href of assetTargets) {
+    if (text.includes(`'${href}'`) || text.includes(`"${href}"`)) linkedAssets.add(href);
+  }
+}
+assert.equal(linkedAssets.size, assetTargets.size, 'ページから参照されていない添付ファイルがあります');
 console.log(`移行検証成功: ${manifest.pages.length} ページ、${manifest.assets.length} 添付ファイル。リンク・画像数・SHA-256 一致を確認。`);

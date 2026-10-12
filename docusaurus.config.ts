@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'mikinel Shisha System',
+  title: 'Mikinel Shisha System',
   tagline: 'VRChatのワールドに、シーシャのある時間を。',
   favicon: 'img/shisha-icon.png',
   // 参考サイトと同じ GitHub Pages 構成。公開先に合わせて環境変数で変更できます。
@@ -21,38 +21,24 @@ const config: Config = {
     ['classic', {
       docs: {sidebarPath: './sidebars.ts'},
       blog: false,
+      gtag: {trackingID: 'G-CSQPCJ2S21'},
       theme: {customCss: './src/css/custom.css'},
     } satisfies Preset.Options],
   ],
   themeConfig: {
     image: 'img/notion/intro/preview.png',
-    colorMode: {defaultMode: 'dark', respectPrefersColorScheme: false},
+    colorMode: {defaultMode: 'dark', disableSwitch: false, respectPrefersColorScheme: false},
     navbar: {
-      title: 'mikinel Shisha System',
-      logo: {alt: '', src: 'img/shisha-icon.png'},
-      items: [
-        {type: 'docSidebar', sidebarId: 'docs', label: 'ドキュメント', position: 'left'},
-        {to: '/docs/basic', label: 'Basic', position: 'right'},
-        {to: '/docs/advanced', label: 'Advanced', position: 'right'},
-      ],
+      title: 'Mikinel Shisha System',
+      hideOnScroll: false,
+      logo: {alt: 'Mikinel Shisha System Icon', src: 'img/shisha-icon.png'},
+      items: [],
     },
     footer: {
       style: 'dark',
-      links: [
-        {title: 'はじめる', items: [
-          {label: 'このアセットについて', to: '/docs/intro'},
-          {label: 'Basic モードの導入', to: '/docs/basic'},
-          {label: 'Advanced モードの導入', to: '/docs/advanced'},
-        ]},
-        {title: 'つくる・体験する', items: [
-          {label: 'カスタムデザインの作成', to: '/docs/custom-design'},
-          {label: 'サンプルワールド', href: 'https://vrchat.com/home/world/wrld_ac532470-12ed-4bd4-80d5-12b2c6a00dea'},
-          {label: '紹介動画', href: 'https://youtu.be/lRXlGNVUriw'},
-        ]},
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} mikinel. Built with Docusaurus.`,
+      links: [],
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://x.com/mikinel" target="_blank" rel="noopener noreferrer">mikinel</a>. Built with Docusaurus.`,
     },
-    tableOfContents: {minHeadingLevel: 2, maxHeadingLevel: 4},
     prism: {theme: prismThemes.github, darkTheme: prismThemes.dracula},
   } satisfies Preset.ThemeConfig,
 };

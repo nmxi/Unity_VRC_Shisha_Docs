@@ -1,56 +1,158 @@
-/* VoiceGroupControl2_Docs の暖色パレットをベースに調整。 */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
 :root {
-  --ifm-color-primary: #995312;
-  --ifm-color-primary-dark: #894b10;
-  --ifm-color-primary-darker: #82460f;
-  --ifm-color-primary-darkest: #6b3a0d;
-  --ifm-color-primary-light: #a95b14;
-  --ifm-color-primary-lighter: #b16015;
-  --ifm-color-primary-lightest: #c76c17;
-  --ifm-background-color: #fcfaf7;
-  --ifm-background-surface-color: #fff;
-  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
-  --ifm-heading-font-weight: 700;
-  --ifm-line-height-base: 1.8;
-  --ifm-code-font-size: 90%;
-  --ifm-navbar-height: 4rem;
-  --ifm-global-radius: .5rem;
-  --docusaurus-highlighted-code-line-bg: #00000010;
+  --shisha-caption-color: #666;
+  --shisha-basic-color: #247a3e;
+  --shisha-basic-background: #e8f5eb;
+  --shisha-advanced-color: #b84b16;
+  --shisha-advanced-background: #ffebe1;
+  --ifm-color-primary: #CC7A20;
+  --ifm-color-primary-dark: #b86c1c;
+  --ifm-color-primary-darker: #ad651a;
+  --ifm-color-primary-darkest: #8f5316;
+  --ifm-color-primary-light: #d48833;
+  --ifm-color-primary-lighter: #d78f3f;
+  --ifm-color-primary-lightest: #dfa35e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
+
 [data-theme='dark'] {
-  --ifm-color-primary: #ffb142;
+  --shisha-caption-color: #aaa;
+  --shisha-basic-color: #71d58a;
+  --shisha-basic-background: #203b29;
+  --shisha-advanced-color: #ff9852;
+  --shisha-advanced-background: #492c20;
+  --ifm-color-primary: #FFB142;
   --ifm-color-primary-dark: #ffa21f;
   --ifm-color-primary-darker: #ff9b10;
   --ifm-color-primary-darkest: #d97d00;
   --ifm-color-primary-light: #ffc065;
   --ifm-color-primary-lighter: #ffc774;
   --ifm-color-primary-lightest: #ffdda6;
-  --ifm-background-color: #181715;
-  --ifm-background-surface-color: #211f1c;
-  --ifm-navbar-background-color: #181715;
-  --ifm-font-color-base: #ede9e3;
-  --ifm-color-emphasis-200: #38332d;
-  --ifm-color-emphasis-600: #ada49b;
-  --ifm-color-emphasis-700: #c2b9af;
-  --docusaurus-highlighted-code-line-bg: #ffffff15;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-.navbar { border-bottom: 1px solid var(--ifm-color-emphasis-200); box-shadow: none; }
-.navbar__title { font-size: .95rem; letter-spacing: -.02em; }
-.navbar__link { font-size: .85rem; }
-.button--primary:not(.button--outline) { background: #ffb142; border-color: #ffb142; color: #211b13; }
-.button--primary:not(.button--outline):hover { background: #ffc065; border-color: #ffc065; color: #211b13; }
-.footer { background: linear-gradient(180deg, #302720, #241e19); }
-.footer__title { color: #f4ece1; font-size: .9rem; }
-.footer__link-item { color: #e2c6a1; font-size: .85rem; }
-.footer__link-item:hover { color: #ffb142; }
-.footer__copyright { color: #bdb1a2; font-size: .75rem; margin-top: 1.5rem; }
-.markdown { overflow-wrap: anywhere; }
-.markdown h1 { font-size: clamp(1.8rem, 3vw, 2.6rem); }
-.markdown h2 { margin-top: 3rem; padding-bottom: .6rem; border-bottom: 1px solid var(--ifm-color-emphasis-200); }
-.markdown h3 { margin-top: 2.2rem; }
-.markdown img { display: block; max-width: 100%; max-height: 680px; width: auto; height: auto; object-fit: contain; margin: 1.5rem auto; border-radius: .4rem; }
-.markdown table { display: block; overflow-x: auto; }
-.menu__link { font-size: .88rem; }
-.table-of-contents { font-size: .75rem; }
-:focus-visible { outline: 2px solid var(--ifm-color-primary); outline-offset: 4px; }
-@media (max-width: 480px) { .navbar__title { font-size: .8rem; } .markdown h1 { font-size: 1.65rem; } }
+
+.footer {
+  background: linear-gradient(180deg, #4a3b2f 0%, #3a2b1f 100%);
+  color: #ffffff;
+}
+
+/* Hide only the mobile sidebar brand while preserving its occupied space. */
+.navbar-sidebar .navbar__brand {
+  visibility: hidden;
+}
+
+.footer a {
+  color: #FFB142;
+}
+
+.footer a:hover {
+  color: #ffc065;
+}
+
+.markdown img {
+  max-width: 60%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+article img {
+  max-width: min(60%, 100%);
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+.markdown img.dependencyImage {
+  max-height: 450px;
+}
+
+.markdown .image-caption {
+  margin: 0 0 1.5rem;
+  color: var(--shisha-caption-color);
+  font-size: .875rem;
+  line-height: 1.6;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.markdown p:has(+ .image-caption) {
+  margin-bottom: .5rem;
+}
+
+.markdown p:has(+ .image-caption) img {
+  margin-bottom: 0;
+}
+
+/* Keep the glossary's term column about twice its previous desktop width. */
+.markdown #mikinel-shisha-system上での用語定義 + p + table :is(th, td):first-child {
+  width: 13.25rem;
+  min-width: 13.25rem;
+}
+
+.shisha-intro-video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  margin: 1rem 0;
+}
+
+.sidebar-mode-basic > .menu__link {
+  color: var(--shisha-basic-color);
+}
+
+.sidebar-section > .menu__list-item-collapsible,
+.sidebar-section > .menu__list-item-collapsible > .menu__link {
+  background: transparent;
+  cursor: default;
+}
+
+.sidebar-section > .menu__list-item-collapsible > .menu__link {
+  color: var(--shisha-caption-color);
+}
+
+.sidebar-mode-advanced > .menu__link {
+  color: var(--shisha-advanced-color);
+}
+
+.shisha-mode-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  padding: 0;
+  list-style: none;
+}
+
+.markdown .shisha-mode-list > li {
+  margin: 0;
+  padding: .5rem .9rem;
+  border-radius: .65rem;
+  font-size: .95rem;
+  font-weight: 600;
+}
+
+.shisha-mode-basic {
+  color: var(--shisha-basic-color);
+  background: var(--shisha-basic-background);
+}
+
+.shisha-mode-badge {
+  display: inline-block;
+  padding: .15rem .6rem;
+  border-radius: .65rem;
+  font-size: .95rem;
+  font-weight: 600;
+}
+
+.shisha-mode-advanced {
+  color: var(--shisha-advanced-color);
+  background: var(--shisha-advanced-background);
+}

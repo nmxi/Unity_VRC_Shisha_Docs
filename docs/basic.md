@@ -13,7 +13,7 @@ mikinel Shisha Systemは`Assets/mikinel` 内にインポートされます。
 
 ![インポートされたファイル群](/img/notion/basic/figure-10.png)
 
-インポートされたファイル群
+<p class="image-caption">インポートされたファイル群</p>
 
 :::tip[ヒント]
 
@@ -34,7 +34,7 @@ mikinel Shisha Systemでは、ShishaSystem_Root.prefabを先に配置してか�
 
 ![ShishaSystem_Root.prefabをシーンに配置](/img/notion/basic/figure-02.png)
 
-ShishaSystem_Root.prefabをシーンに配置
+<p class="image-caption">ShishaSystem_Root.prefabをシーンに配置</p>
 
 ## 3. Prefabの配置
 
@@ -48,11 +48,11 @@ ShishaSystem_Root.prefabをシーンに配置
 
 ![様々な種類のシーシャ本体のPrefab](/img/notion/basic/figure-03.png)
 
-様々な種類のシーシャ本体のPrefab
+<p class="image-caption">様々な種類のシーシャ本体のPrefab</p>
 
 ![シーシャ本体を配置した様子](/img/notion/basic/figure-04.png)
 
-シーシャ本体を配置した様子
+<p class="image-caption">シーシャ本体を配置した様子</p>
 
 `Assets/mikinel/Shisha/Prefabs/Flavor` のフォルダ内にフレーバボトルのPrefabがあります。
 
@@ -62,11 +62,11 @@ ShishaSystem_Root.prefabをシーンに配置
 
 ![様々な種類のフレーバのPrefab](/img/notion/basic/figure-05.png)
 
-様々な種類のフレーバのPrefab
+<p class="image-caption">様々な種類のフレーバのPrefab</p>
 
 ![フレーバを配置した様子](/img/notion/basic/figure-06.png)
 
-フレーバを配置した様子
+<p class="image-caption">フレーバを配置した様子</p>
 
 フレーバには吐く煙の色が設定可能です。
 
@@ -74,13 +74,16 @@ ShishaSystem_Root.prefabをシーンに配置
 
 ![FlavorServerコンポーネント](/img/notion/basic/figure-07.png)
 
-FlavorServerコンポーネント
+<p class="image-caption">FlavorServerコンポーネント</p>
 
-FlavorColorTypeを切り替えることで、1色、2色グラデーションの切り替えが可能です。
+- **FlavorColorType**：1色とグラデーション色を切り替えます。
+- **FirstColor**：1色目の色を設定します。
+- **SecondColor**：グラデーション時の2色目の色を設定します。
+- **Smoke Density Multiplier**：煙の濃さを設定します。
 
-![SingleモードとGradientモード](/img/notion/basic/figure-08.png)
+![FlavorServerの色と煙の濃さの設定](/img/notion/basic/figure-08.png)
 
-SingleモードとGradientモード
+<p class="image-caption">FlavorServerの色と煙の濃さの設定</p>
 
 ## 4. 動作確認、アップロード
 
@@ -88,11 +91,11 @@ SingleモードとGradientモード
 
 ![フレーバを当てた時の様子](/img/notion/basic/figure-09.png)
 
-フレーバを当てた時の様子
+<p class="image-caption">フレーバを当てた時の様子</p>
 
 ![シーシャを吸ったときの様子](/img/notion/basic/figure-01.png)
 
-シーシャを吸ったときの様子
+<p class="image-caption">シーシャを吸ったときの様子</p>
 
 :::tip[ヒント]
 
